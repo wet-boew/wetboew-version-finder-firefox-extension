@@ -1,0 +1,52 @@
+* {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 14px;
+}
+
+html, body {
+	width: 800px;
+	/*height: 600px;*/
+    
+}
+
+p {
+	padding: 0px 5px;
+}
+
+h2 {
+    margin-top: 0px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #313445, #2E3E45);
+    color: white;
+    margin-bottom: 0;
+    padding: 15px;
+}
+
+table{
+	border-collapse: collapse;
+	width: 100%;
+    background-color: #E3E3E3;
+}
+
+th, td {
+	text-align: center;
+    padding: 10px;
+    -webkit-user-select: all;  /* Chrome 49+ */
+  -moz-user-select: all;     /* Firefox 43+ */
+  -ms-user-select: all;      /* No support yet */
+  user-select: all;          /* Likely future */ 
+}
+
+#dryHeadings, #wwHeadings {
+    background: linear-gradient(to bottom right, #4E5E75, #5D7D8C);
+    color: white;
+}
+
+table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0;
+}

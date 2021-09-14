@@ -1,0 +1,13 @@
+{
+	
+	"extensionName": {
+		"message": "Version de verifier des BOET Widgets",
+		"description": "Name of the extension."
+	},
+	
+	"extensionDescription": {
+		"message": "Trouve les versions de tous les Widgets BOET sur une page, et se compare à la dernière version.",
+		"description": "Description of the extension."
+	}
+	
+}

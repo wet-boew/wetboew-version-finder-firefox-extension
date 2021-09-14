@@ -1,0 +1,13 @@
+{
+	
+	"extensionName": {
+		"message": "WET Widget Version Finder",
+		"description": "Name of the extension."
+	},
+	
+	"extensionDescription": {
+		"message": "Finds the versions of all WET Wigets on a page, and compares to the latest version.",
+		"description": "Description of the extension."
+	}
+	
+}

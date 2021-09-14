@@ -1,0 +1,50 @@
+{
+	
+	"manifest_version": 2,
+	"name": "__MSG_extensionName__",
+	"description": "__MSG_extensionDescription__",
+	"version": "1.0.2",
+	
+	"icons": {
+		"48" : "icons/wet-sq-48.png",
+		"96" : "icons/wet-sq-96.png"
+	},
+	
+	"applications": {
+		"gecko": {
+			"id": "wwvf-we@clfcoe.net",
+			"strict_min_version": "45.0",
+			"update_url" : "https://www.nordburg.ca/ext/updates.php?extid=wwvf-we"
+		}
+	},
+	 "content_scripts": [
+		{
+			"matches": [ "<all_urls>" ],
+			"js": [ "content_scripts/wwvf-cs.js" ],
+			"run_at" : "document_end"
+		}
+	],
+	"permissions": [
+		"tabs",
+		"<all_urls>",
+		"storage"
+	],
+	
+	"browser_action": {
+		"browser_style": true,
+		"default_icon": {
+			"38" : "icons/wet-sq-38.png",
+			"16" : "icons/wet-sq-19.png"
+			
+		},
+		"default_title": "__MSG_extensionName__",
+		"default_popup": "popup/wwvfPopup.html"
+	},
+	
+	"background": {
+		"scripts": ["wwvf-bg.js"]
+	},
+	
+	"default_locale": "en"
+	
+}
